@@ -1,7 +1,7 @@
 {% extends 'blog/base.html' %}
 
 {% block title %}
-HOME
+POST
 {% endblock %}
 
 {% block content %}
@@ -9,9 +9,8 @@ HOME
     {% include 'blog/components/nav.html' %}
     <!-- Page Header-->
     {% include 'blog/components/header.html' %}
-
-    <!-- Main Content-->
-    {% include 'blog/components/post-list.html' %}
+    <!-- Post Content-->
+    {% include 'blog/components/post-detail.html' %}
     <!-- Footer-->
     {% include 'blog/components/footer.html' %}
 {% endblock %}
